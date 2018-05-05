@@ -10,7 +10,7 @@ def lowest_student_gpa
 end
 
 def average_student_gpa
-  SELECT average(gpa) 
+  SELECT average(gpa)
   FROM students
 end
 
